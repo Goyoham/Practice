@@ -11,3 +11,7 @@ process.argv.forEach(function(val, index, array){
 
 var circle = require('./circle.js');
 console.log('r4 : ' + circle.area(4));
+
+var mod = require('./mymodule.js');
+var varModule = mod(10);
+console.log('num : ' + varModule.number());
